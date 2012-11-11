@@ -3,6 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('crypto-base', ['server']);
+  api.add_files('crypto-base.js', ['server']);
   api.add_files('md5.js', ['server']);
 });
